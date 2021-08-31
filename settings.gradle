@@ -1,0 +1,4 @@
+rootProject.name = 'course_kafka_and_kafka_stream_hands_on_coding'
+include 'l0703_retrying_consumer_producer'
+include 'l0703_retrying_consumer_consumer'
+
