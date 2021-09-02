@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class InvoiceService {
 
-    private AtomicInteger counter = new AtomicInteger(0);
+    private final AtomicInteger counter = new AtomicInteger(0);
 
     public Invoice generate() {
         counter.incrementAndGet();
