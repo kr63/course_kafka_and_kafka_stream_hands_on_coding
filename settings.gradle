@@ -1,6 +1,8 @@
 rootProject.name = 'course_kafka_and_kafka_stream_hands_on_coding'
 include 'l0703_retrying_consumer_producer'
 include 'l0703_retrying_consumer_consumer'
+include 'l0704_dead_letter_topic_producer'
+include 'l0704_dead_letter_topic_consumer'
 include 'l9999_stackoverflow_50478267_producer'
 include 'l9999_stackoverflow_50478267_consumer'
 
